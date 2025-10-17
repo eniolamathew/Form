@@ -1,0 +1,69 @@
+# ---- General ----
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+
+# ---- Build Results ----
+bin/
+obj/
+out/
+[Bb]uild/
+[Ll]og/
+
+# ---- NuGet ----
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.nuget.props
+*.nuget.targets
+*.nuget.cache
+*.csproj.nuget.dgspec.json
+*.csproj.nuget.g.props
+*.csproj.nuget.g.targets
+.nuget/
+
+# ---- Frontend ----
+node_modules/
+npm-debug.log*
+yarn-error.log
+.pnp.*
+.pnp.js
+
+# ---- Docker ----
+*.dockerignore
+docker-compose*
+Dockerfile*
+
+# ---- Environment / Secrets ----
+.env
+secrets.dev.yaml
+values.dev.yaml
+
+# ---- IDE / Tools ----
+.classpath
+.project
+.settings/
+.toolstarget/
+charts/
+azds.yaml
+
+# ---- Databases ----
+*.dbmdl
+*.bak
+*.ldf
+*.mdf
+
+# ---- Logs ----
+*.log
+
+# ---- Git ----
+.git/
+!**/.gitignore
+!.git/HEAD
+!.git/config
+!.git/packed-refs
+!.git/refs/heads/**
